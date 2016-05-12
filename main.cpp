@@ -1,4 +1,5 @@
 #include <iostream>
+#include "cartridge.h"
 
 using namespace std;
 
