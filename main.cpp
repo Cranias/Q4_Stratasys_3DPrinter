@@ -1,5 +1,8 @@
 #include <iostream>
+
 #include "cartridge.h"
+#include "eeprom.h"
+
 
 using namespace std;
 
