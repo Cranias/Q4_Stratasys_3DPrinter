@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cartridge Programmer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTreeWidget" name="material_tree">
+        <column>
+         <property name="text">
+          <string>Selecteer een type filament</string>
+         </property>
+        </column>
+        <item>
+         <property name="text">
+          <string>ABS</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>ABS Rood</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABS Groen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABS Zwart</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABS Geel</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABS Blauw</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABS Overig</string>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>ABSI</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>ABSI Rood</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABSI Groen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABSI Zwart</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABSI Geel</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABSI Blauw</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ABSI Overig</string>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>ABS Support</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ABS Soluble Support</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="programmeer_pb">
+        <property name="text">
+         <string>Programmeer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="textBrowser"/>
+      </item>
+      <item>
+       <widget class="QProgressBar" name="progressBar">
+        <property name="value">
+         <number>24</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
